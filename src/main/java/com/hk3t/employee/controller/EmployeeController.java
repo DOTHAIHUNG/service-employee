@@ -11,7 +11,7 @@ import javax.validation.Valid;
 import java.util.List;
 
 @RestController
-@CrossOrigin(origins = "http://localhost:4200")
+@CrossOrigin(origins = "https://client-employees.firebaseapp.com/")
 public class EmployeeController {
     @Autowired
     EmployeeRepository employeeRepository;
